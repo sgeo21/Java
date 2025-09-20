@@ -1,0 +1,27 @@
+package arrays;
+
+import java.util.HashSet;
+
+import java.util.Set;
+
+public class colecaoSet {
+
+	public static void main(String[] args) {
+	
+		Set<String> frutas = new HashSet<String>();
+		
+		frutas.add ("Banana");
+		frutas.add ("Maçã");
+		frutas.add ("Laranja");
+		frutas.add ("Abacate");
+		frutas.add ("Banana");
+		
+		
+		
+		for(String fruta: frutas) {
+			System.out.println(fruta.hashCode());
+		}
+		
+	}
+
+}

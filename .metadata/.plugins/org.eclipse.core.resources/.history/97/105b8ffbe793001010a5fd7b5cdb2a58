@@ -1,0 +1,36 @@
+package listadeexercicios4;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+	
+	Scanner leia = new Scanner(System.in);
+		
+       float numeros [][] = new float[3][3];
+       
+       
+       //entrada de dados
+       for(int linha = 0; linha< numeros[linha].length; linha ++) { 
+    	   for(int coluna = 0; coluna< numeros[linha].length; coluna ++) { 
+    		   System.out.println("Digite um número: ");
+    		   numeros[linha][coluna]=leia.nextFloat();
+    	   }
+       }
+       
+       //exibição de dados - listagem dos dados da matriz
+       for(int linha = 0; linha < numeros.length; linha ++) { 
+    	   for(int coluna = 0; coluna< numeros[linha].length; coluna ++) { 
+       System.out.printf("numeros [%d][%d]", linha, coluna, numeros[linha][coluna]);
+       
+       
+    	   }//%d para numeros inteiros , %.2f para 2 numeros após a virgula , %f para numeros com virgula vários numeros
+    	} // da erro pois a matriz irregular precisa ajustar pois ela tem apenas (nestecaso)2 linhas e 3 colunas
+       //para solucionar isso na segunda parte ao invés de incluir a  inlcuir no for o tamanho da linha, de linha por linha
+      
+       //fechamento da entrada
+    	   
+	}
+
+}

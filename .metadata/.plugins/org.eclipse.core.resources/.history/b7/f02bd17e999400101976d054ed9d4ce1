@@ -1,0 +1,25 @@
+package arrays;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class ColecaoPilha {
+
+	public static void main(String[] args) {
+		//Criar a foam de desenvolvimento - colection a pilhao ultimo 
+		Deque<String> pilha = new ArrayDeque<String>();
+		//criar uma bibliote
+		pilha.push("Duna");
+		pilha.push("Pai Rico Pai Pobre");
+		pilha.push("Maus");
+		pilha.push("Crime e Castigo");
+		pilha.push("Quarto de despejo");
+		//saída de dados inseridos
+		System.out.println(pilha);
+		
+		
+		
+
+	}
+
+}

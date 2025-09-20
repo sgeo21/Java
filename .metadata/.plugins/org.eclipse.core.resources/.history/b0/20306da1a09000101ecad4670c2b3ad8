@@ -1,0 +1,38 @@
+package etec_ds;
+
+import java.util.Scanner;
+
+public class atividade6 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner (System.in);
+		System.out.println("Digite o valor total da compra");
+		double valorCompra = leia.nextDouble();
+				
+		System.out.println("");
+		
+		//variavel para armazenar o desconto
+		//Se o valor total da compra for menor do que 
+		//R$ 200,00, o cliente recebe um desconto de 5%.
+		//Se o valor total da compra for maior ou igual 
+		//a R$ 200,00 e menor que R$ 300,00, o cliente recebe um desconto de 10%.
+		//Se o valor total da compra for maior ou igual 
+		//a R$ 300,00, o cliente recebe um desconto de 15%.
+		
+		double desconto = valorCompra*0.05;
+		
+		
+		if (valorCompra >= 200.00 && valorCompra <= 300.00) desconto = (valorCompra * 0.10);
+		
+		else if (valorCompra > 300.00) desconto = (valorCompra * 0.15); 
+		
+		double valorApagar = valorCompra - desconto;
+		
+		System.out.println("O desconto nessa compra é de: R$" + desconto);
+		System.out.println("O valor a pagar será R$:" + valorApagar);
+		
+
+	}
+
+}

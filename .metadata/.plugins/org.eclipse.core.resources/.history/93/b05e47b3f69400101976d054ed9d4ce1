@@ -1,0 +1,40 @@
+package listadeexerciciosmodulo8e9;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		Queue<String> fila = new LinkedList<String>();
+		
+		do {
+			
+		System.out.println("###############################");
+		System.out.println("   Selecine a opção desejada   ");
+		System.out.println("###############################");
+		System.out.println(" 1 - Adicionar Cliente         ");
+		System.out.println(" 2 - Listar todos os Clientes  ");
+		System.out.println(" 3 - Retirar Clientes da lista ");
+		System.out.println(" 0 - Sair                      ");
+		opcao = leia.nextInt();
+		
+		}
+		if (opcao == 1) {
+			//opção2
+			 System.out.println("O tamanho da fila é: " + fila.size());
+	     }
+		
+		else (opcao == 2) {
+			//opção2
+			System.out.println("A fila dos clientes em espera são:"  fila);
+			
+	     }
+		else (opcao == 3)
+	
+    }
+
+}

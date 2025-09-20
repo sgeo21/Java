@@ -1,0 +1,24 @@
+package listadeexercicios3;
+
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner (System.in);
+		
+		int numero, impares;
+		
+		
+		System.out.println("Digite um número inteiro:");
+		numero = leia.nextInt(); 
+	
+		
+		for(int pares = numero; numero %2 == 0; numero ++) {
+			System.out.printf("%d / %d = %d%n", numero, pares, numero %2 );
+			
+			
+	}}
+
+}

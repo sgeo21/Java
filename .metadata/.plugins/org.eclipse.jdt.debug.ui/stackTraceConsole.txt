@@ -1,0 +1,2 @@
+System.out.println("Digite sua idade: ");
+		idade = leia.nextInt(); 

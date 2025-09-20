@@ -1,0 +1,36 @@
+package arrays;
+
+import java.util.HashSet;
+
+import java.util.Set;
+
+public class colecaoSet {
+
+	public static void main(String[] args) {
+	   //metodo collection set
+		Set<String> frutas = new HashSet<String>();
+		//dados entrada
+		frutas.add ("Banana");
+		frutas.add ("Maçã");
+		frutas.add ("Laranja");
+		frutas.add ("Abacate");
+		frutas.add ("Banana");
+		//dados saída
+		System.out.println(frutas);
+		//para saída em forma da conversão de dados que acontece dentro do hash que inclusive 
+		//é o que permite que o mesmo não cause repetições
+		for(String fruta: frutas) {
+			System.out.println(fruta.hashCode());
+		// por isso é muito utilizado para fazer codificações e 
+		}
+		//também podemos remover elementos
+		frutas.remove("Abacate");
+		
+		System.out.println(frutas);
+		// se acrescentar algum dado com letra maiscula e miniscula não é o mesmo elemento
+		//o calculo do hash é assim, sempre de acordo com cada definição do teclado.
+		
+		
+	}
+
+}

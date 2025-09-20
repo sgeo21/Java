@@ -1,0 +1,18 @@
+package listadeexercicios4;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+	
+	Scanner leia = new Scanner(System.in);
+		
+       float numerosReais [][] = new float[3][3];
+       
+       
+
+       
+	}
+
+}

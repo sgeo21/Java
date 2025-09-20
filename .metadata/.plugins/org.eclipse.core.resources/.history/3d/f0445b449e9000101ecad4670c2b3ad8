@@ -1,0 +1,17 @@
+package etec_ds;
+
+import java.util.Scanner;
+
+public class atividade6 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		System.out.println("Digite o valor total da compra");
+		double valorCompra = scanner.nextDouble();
+				
+		
+
+	}
+
+}

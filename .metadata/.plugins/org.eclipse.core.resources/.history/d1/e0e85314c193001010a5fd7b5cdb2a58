@@ -1,0 +1,15 @@
+package vetores;
+
+public class Exemplovetor {
+
+	public static void main(String[] args) {
+		
+		String nomes[] = {"Cintia, Stella, Patricia, Rafaela, Leticia"};
+		
+		int numeros[]= new int[5];
+		
+		for(int indice = 0; indice <5 ; indice++) {
+		   System.out.printf("Nomes [%d] = %s%n ", indice, nomes[indice]);
+		}
+	}
+}

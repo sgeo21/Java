@@ -1,0 +1,23 @@
+package helloworld;
+
+public class VariaveisJava {
+
+	public static void main(String[] args) {
+		
+		int peso = 50;
+		
+		char opcao = 'S';
+		
+		float valor = 100.00f;
+		
+		System.out.println("O valor da variável de peso é: " + peso);
+		
+		System.out.println("O valor da variável de opcao é: " + opcao);
+		
+		System.out.println("valor da variável valor é: " + valor);
+		
+		System.out.printf("o valor da variavel o valor é: %.2f \n", valor);
+
+	}
+
+}

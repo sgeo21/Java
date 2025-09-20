@@ -1,0 +1,37 @@
+package listadeexercicios4;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		int posicao[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int numeros [] = new int [10];
+		int num = 0;
+		
+		for(int indice = 0; indice < numeros.length ; indice++) {
+			   System.out.println("Digite um número: ");
+				numeros[indice] = leia.nextInt();
+		}
+		 System.out.printf("Digite o número que você deseja encontrar a posição: ");
+		   num = leia.nextInt();
+		  
+		   for(int indice = 0; indice < posicao.length ; indice++) {
+			   System.out.printf("O número %d está na posição:[%d]%n", num, posicao[indice]);
+		   }
+		 //System.out.printf("O número [%d] está na posição: [%d]", num, + posicao);
+
+		
+       // num = (numeros; // precisa ser fora do laço
+       // System.out.printf("O número [%d] está na posição:[%d]", num, indice, posicao[indice]);
+		
+		//System.out.printf("O número [%d] está na posição:[%d]", indice, posicao[indice], indice, numeros[indice]);
+		//default
+		
+		
+		leia.close();
+	}
+
+}

@@ -1,0 +1,13 @@
+package helloworld;
+
+public class VariaveisJava {
+
+	public static void main(String[] args) {
+		
+		int peso = 50;
+		
+		System.out.println("O valor da variável de peso é: " + peso);
+
+	}
+
+}
