@@ -6,12 +6,35 @@ public class Exercicio1 {
 
 	public static void main(String[] args) {
 		
-		int soma;
-		
 	Scanner leia = new Scanner(System.in);
-
 	
+	int soma;
+	int numeroA, numeroB, numeroC;
+	
+	
+	System.out.println("Escolha um número: ");
+	numeroA = leia.nextInt();
+	
+	System.out.println("Escolha um número: ");
+	numeroB = leia.nextInt();
 		
+	System.out.println("Escolha um número: ");
+	numeroC = leia.nextInt();
+	
+	soma = numeroA + numeroB;
+	
+	    if (soma < numeroC) {
+		    System.out.printf("A soma do número %d com o número %d é menor do que o número %d%n", numeroA, numeroB, numeroC);
+	    }
+		else if (soma > numeroC) {
+			System.out.printf("A soma do número %d com o número %d é maior do que o número %d%n", numeroA, numeroB, numeroC);
+		}
+		else if (soma == numeroC) {
+				System.out.printf("A soma do número %d com o número %d é igual a %d%n", numeroA, numeroB, numeroC);
+		} else {
+		System.out.println("Comando invalido!");
+		}
+	
 		leia.close();
 	}
 

@@ -1,0 +1,33 @@
+package listadeexercicios2;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		int soma;
+		
+	Scanner leia = new Scanner(System.in);
+
+	int numeroA, numeroB, numeroC;
+	
+	
+	System.out.println("Escolha um número: ");
+	numeroA = leia.nextInt();
+	
+	System.out.println("Escolha um número: ");
+	numeroB = leia.nextInt();
+		
+	System.out.println("Escolha um número: ");
+	numeroC = leia.nextInt();
+	
+	
+	if(numeroA + numeroB < numeroC) {
+		System.out.printf("O número %f + o número %f é maior do que o número %f%n", numeroA, numeroB, numeroC);
+	}
+	
+		leia.close();
+	}
+
+}
