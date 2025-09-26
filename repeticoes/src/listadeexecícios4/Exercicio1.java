@@ -13,15 +13,17 @@ public class Exercicio1 {
 		for(int indice = 0; indice < numeros.length ; indice++) {
 			   System.out.println("Digite um número: ");
 				numeros[indice] = leia.nextInt();
-		}
-	
+		
 		 System.out.printf("Digite o número que você deseja encontrar a posição: ");
 		   num = leia.nextInt();
-	
 		   
-			   System.out.printf("O número %d está localizado na posição: %d%n  ", num, numeros[num]);
-			   
-		
+		   if (num == (numeros[indice])) {
+		System.out.println(numeros[indice]);
+		   }
+		}
+		   /*for(int indice = 0; indice <= num; indice ++) {
+			   System.out.printf(" [%d] = %d%n", indice, numeros[indice]);
+		   }*/
 		
 		leia.close();
 	}

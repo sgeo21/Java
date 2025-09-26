@@ -14,7 +14,7 @@ public class Exercicio2 {
 		 numero1 = leia.nextInt(); 
 		 
 		 
-		 for(int contador = 0; numero <= 10; contador ++) {
+		 for(int contador = 0; numero1 <= 10; contador ++) {
 			
 		
 		 }
